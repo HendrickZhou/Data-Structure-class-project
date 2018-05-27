@@ -186,7 +186,7 @@ bool SparseMatrix<Type>::setValue(int Row, int Col, Type Value)
 		}
 	}
 	Triple<Type> temp = Triple(Row, Col, Value);
-	this->insert(temp);
+	insert(temp);
 	return true;
 }
 
